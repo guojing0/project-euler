@@ -16,6 +16,15 @@ int isPrime(int x)
     return TRUE;
 }
 
+int isPythaNum(int x, int y, int z)
+{
+    if (pow(x, 2) + pow(y, 2) == pow(z, 2)) {
+        return TRUE;
+    } else {
+        return FALSE;
+    }
+}
+
 long fac(int x)
 {
     long sum = 1;
