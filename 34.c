@@ -1,19 +1,6 @@
 #include <stdio.h>
-#include <math.h>
 
-#define TRUE 1
-#define FALSE 0
-
-int fac(int x)
-{
-    long sum = 1;
-
-    for (int i=1; i<=x; i++) {
-        sum = sum * i;
-    }
-
-    return sum;
-}
+#include "utils.h"
 
 int isCurNum(int startNum)
 {
