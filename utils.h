@@ -16,7 +16,7 @@ int isPrime(int x)
     return TRUE;
 }
 
-int fac(int x)
+long fac(int x)
 {
     long sum = 1;
 
