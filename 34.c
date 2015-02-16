@@ -9,7 +9,7 @@ int isCurNum(int startNum)
     evalNum = startNum;
     lastDigit = 0;
 
-    while (evalNum != 0) {
+    while (evalNum) {
         lastDigit = evalNum % 10;
         evalNum = evalNum / 10;
         sum = sum + fac(lastDigit);
